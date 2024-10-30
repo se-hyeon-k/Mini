@@ -12,7 +12,7 @@ public class HomeController {
 	
 	@GetMapping("/")
 	public String home() {
-		logger.info("HOME페이지 이동");
+		logger.info("HOME페이지 이동..");
 		return "home";
 	}
 	
